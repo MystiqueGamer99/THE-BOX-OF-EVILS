@@ -21,7 +21,7 @@ function preload() {
   medusaGroup = new Group();
   magicGroup = new Group();
 
-  genieIdle = loadAnimation("../genie2/idle1.png","../genie2/idle2.png","../genie2/idle3.png")
+  genieIdle = loadAnimation("genie2/Idle1.png","genie2/Idle2.png","genie2/Idle3.png")
   genieAttack = loadAnimation("genie2/Attack1.png","genie2/Attack2.png","genie2/Attack3.png","genie2/Attack4.png")
   magic_anim = loadAnimation("genie/Magic_Attack1.png","genie/Magic_Attack2.png","genie/Magic_Attack3.png","genie/Magic_Attack4.png",
     "genie/Magic_Attack5.png","genie/Magic_Attack6.png","genie/Magic_Attack7.png","genie/Magic_Attack8.png","genie/Magic_Attack9.png",
