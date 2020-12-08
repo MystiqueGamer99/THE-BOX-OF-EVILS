@@ -104,7 +104,7 @@ function draw(){
       magic.visible = true;
       touches = [];
     }
-    if(keyWentUp("space")){
+    if(touches.length === 0 || keyWentUp("space")){
       genie.changeAnimation("Idle",genieIdle);
     }
   
